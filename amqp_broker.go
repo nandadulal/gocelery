@@ -81,7 +81,7 @@ func NewAMQPCeleryBrokerByConnAndChannel(conn *amqp.Connection, channel *amqp.Ch
 		Channel:    channel,
 		Connection: conn,
 		Exchange:   NewAMQPExchange("default"),
-		Queue:      NewAMQPQueue("celery"),
+		Queue:      NewAMQPQueue("code-run"),
 		Rate:       4,
 	}
 	if err := broker.CreateExchange(); err != nil {
