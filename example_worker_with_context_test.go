@@ -5,7 +5,7 @@
 package gocelery
 
 import (
-	"context"
+	"golang.org/x/net/context"
 	"time"
 
 	"github.com/gomodule/redigo/redis"

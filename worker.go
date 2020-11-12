@@ -5,7 +5,7 @@
 package gocelery
 
 import (
-	"context"
+	"golang.org/x/net/context"
 	"fmt"
 	"log"
 	"reflect"
