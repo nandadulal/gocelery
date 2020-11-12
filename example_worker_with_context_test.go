@@ -8,7 +8,8 @@ import (
 	"golang.org/x/net/context"
 	"time"
 
-	"github.com/gomodule/redigo/redis"
+	//"github.com/gomodule/redigo/redis"
+	"github.com/garyburd/redigo/redis"
 )
 
 func Example_workerWithContext() {

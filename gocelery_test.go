@@ -11,7 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gomodule/redigo/redis"
+	//"github.com/gomodule/redigo/redis"
+	"github.com/garyburd/redigo/redis"
 	uuid "github.com/satori/go.uuid"
 )
 

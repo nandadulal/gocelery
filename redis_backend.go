@@ -8,7 +8,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/gomodule/redigo/redis"
+	//"github.com/gomodule/redigo/redis"
+	"github.com/garyburd/redigo/redis"
 )
 
 // RedisCeleryBackend is celery backend for redis
